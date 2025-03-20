@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="styles/navbarSidebar.css">
+    <link rel="stylesheet" href="styles/usuarios.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="app">
+            <h2>Lista de Usuarios</h2>
+            <button id="reload-users" class="reload-btn">Actualizar</button>
+            <table id="users-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Rol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los usuarios se cargarán aquí -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="src/components/navbar.js"></script>
+    <script src="src/components/sidebar.js"></script>
+    <script src="src/api/usuarios.js"></script>
+    <script src="src/api/session.js"></script>
+</body>
+</html>

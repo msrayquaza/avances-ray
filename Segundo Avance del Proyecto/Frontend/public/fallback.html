@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sin conexión</title>
+    <link rel="stylesheet" href="/styles/global.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+        }
+        .retry-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background: #00B0BD;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .retry-btn:hover {
+            background: #008C9E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sin conexión a Internet</h1>
+        <p>Parece que no tienes conexión en este momento. Revisa tu conexión e intenta nuevamente.</p>
+        <button class="retry-btn" onclick="window.location.reload()">Reintentar</button>
+    </div>
+</body>
+</html>

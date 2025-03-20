@@ -1,0 +1,20 @@
+este proyecto esta hecho en html, js y css
+se levanta con node js
+
+solo es abrir la terminal y ejecutar un 
+
+
+node server.js
+
+en caso de que no funcione solo borren la carpeta node_modules
+y ejecuten
+
+npm i
+
+y luego 
+
+node server.js
+
+
+el frontend corre en el puerto 5500, si lo cambian, vayan al settings del backend 
+y agreguen dicho puerto al corsheader
